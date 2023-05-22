@@ -1,0 +1,68 @@
+.app {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid; 
+  justify-items: center;
+  align-items: center;
+}
+
+.app.bg1 {
+  background-image: url('/imgs/img1.jpg');
+}
+
+.app.bg2 {
+  background-image: url('/imgs/img2.jpg');
+}
+
+.app.bg3 {
+  background-image: url('/imgs/img3.jpg');
+}
+
+.app.bg4 {
+  background-image: url('/imgs/img4.jpg');
+}
+
+.app__container {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  align-items: center;
+  width: min(100%, 500px);
+  height: 450px;
+}
+
+.app__h1 {
+  font-size: 40px;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+  font-family: 'MedievalSharp', cursive;
+  color: bisque;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+}
+
+.quoteBox__btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(210, 210, 210);
+  transition: box-shadow .1s ease-in-out, width .7s ease, height .7s ease;
+}
+
+.quoteBox__btn:hover {
+  transform: translateY(-4px);
+  background-color: lightpink;
+  box-shadow: 0 0 25px rgb(200, 145, 210);
+  width: 115px;
+  height: 40px;
+  cursor: pointer;
+}

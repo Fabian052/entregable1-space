@@ -1,0 +1,31 @@
+.quoteBox {
+  position: relative;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 1.3rem;
+  font-family: 'MedievalSharp', cursive;
+  color: rgba(0, 0, 0, .8);
+  color: bisque;
+}
+
+.dark {
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .2);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+.quoteBox__phrase {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.footer {
+  position: relative
+}
+
