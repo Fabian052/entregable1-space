@@ -20,7 +20,7 @@ function App() {
       <section className="app__container">
         <h1 className="app__h1">INFOGALAX</h1>
 
-        <QuoteBox author={quote.author} phrase={quote.phrase} />
+        <QuoteBox img={bgImg} author={quote.author} phrase={quote.phrase} />
 
         <div className="btn__container">
           <button className='quoteBox__btn' onClick={handleChange} >Space random</button>

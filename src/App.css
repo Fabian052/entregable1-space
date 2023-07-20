@@ -30,8 +30,8 @@
   grid-template-rows: auto 1fr auto;
   justify-items: center;
   align-items: center;
-  width: min(100%, 500px);
-  height: 450px;
+  gap: 60px;
+  width: min(100%, 280px);
 }
 
 .app__h1 {
@@ -55,13 +55,12 @@
   padding: 10px;
   border-radius: 10px;
   background: rgb(210, 210, 210);
-  transition: box-shadow .1s ease-in-out, width .7s ease, height .7s ease;
+  transition: box-shadow .1s ease-in-out, width .8s ease-in-out, height .7s ease-in-out;
 }
 
 .quoteBox__btn:hover {
   transform: translateY(-4px);
-  background-color: lightpink;
-  box-shadow: 0 0 25px rgb(200, 145, 210);
+  box-shadow: 0 0 15px rgb(30, 255, 0);
   width: 115px;
   height: 40px;
   cursor: pointer;
